@@ -1,0 +1,240 @@
+.navbutton {
+    position: relative;
+    top: 0px;
+    transition: ease-in 0.1s;
+    display: inline-block;
+    width: 142px;
+    height: 137px;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.navbutton:hover {
+    top: -20px;
+}
+.navbutton:active {
+    top: 20px;
+    transition: none;
+}
+.navbutton div {
+    width: 140px;
+    height: 140px;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.navbutton div span {
+    position: relative;
+    top: 118px;
+    font-size: 24px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 77px;
+    background: red;
+    z-index: 1;
+}
+
+logo {
+    position: relative;
+    top: 9px;
+    left: 8px;
+    width: 302px;
+    height: 56px;
+    border: 2px solid #fff;
+    border-radius: 14px;
+    background: url(logo.png);
+    background-size: 302px;
+    display: inline-block;
+}
+
+content {
+    width: 100%;
+    height: 226px;
+    position: absolute;
+    top: 77px;
+    background: url(universe.jpg);
+    background-size: contain;
+    color: #fff;
+}
+
+.dots {
+    float: right;
+    background: #fff;
+    border: none;
+    color: red;
+    font-size: 58px;
+    font-weight: bold;
+    width: 76px;
+    height: 76px;
+    line-height: 1px;
+}
+
+.dots:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.dots:active {background: red;color: #fff;}
+
+.dotsmenu {
+    position: absolute;
+    top: 77px;
+    float: right;
+    background: #e8e8e8;
+    z-index: 1;
+    display: none;
+}
+#dotsmenuone {
+    left: 0px;
+    border-width: 0px 4px 4px 0px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 0px 0px 10px 0px;
+}
+#dotsmenutwo {
+    right: 0px;
+    border-width: 0px 0px 4px 4px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.dotsmenu a {
+    padding: 10px;
+    color: #ed1c24;
+    background: #fff;
+    border-width: 1px 0px 1px 0px;
+    border-color: #ed1c24;
+    border-style: solid;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.dotsmenu a:hover {
+    background: red;
+    color: #fff;
+}
+
+.dotsmenu a:active {
+    background: rgba(255, 0, 0, 0.5);
+    color: #fff;
+}
+
+.language-title {
+    font-size: 12px;
+}
+
+.menutitle {
+    font-size: 24px;
+    text-align: center;
+}
+
+::selection {
+    background: red;
+    color: #fff;
+}
+
+nav {
+    position: relative;
+    top: -12px;
+    left: 8px;
+    display: inline-block;
+}
+
+nav a {
+    background: #fff;
+    color: red!important;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 0, 0, 0.5)!important;
+}
+
+nav a:active {
+    background: red;
+    color: #fff!important;
+}
+
+.menubutton {
+    position: relative;
+    top: 12px;
+    left: 4px;
+    float: left;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 5px;
+    display: none;
+}
+
+.menubutton:hover {
+    background: #fff;
+    color: red;
+}
+
+.menubutton:active {
+    filter: opacity(0.5);
+}
+
+@media(max-width:6in){
+logo {
+    background: url(logo-mobile.png)!important;
+    background-size: 44px!important;
+    background-position: 0px 0px!important;
+    width: 45px!important;
+    height: 44px!important;
+    top: 6px!important;
+    border-radius: 6px!important;
+}
+
+header {
+    height: 60px!important;
+}
+
+.dots {
+    width: 60px!important;
+    height: 59px!important;
+    font-size: 44px!important;
+}
+
+.dotsmenu {
+    top: 60px!important;
+}
+
+.dotsmenu a {
+    font-size: 24px!important;
+    padding: 20px!important;
+}
+
+.language-title {
+    font-size: 14px!important;
+}
+
+.menutitle {
+    font-size: 30px!important;
+}
+
+content {
+    top: 60px!important;
+    height: 373px!important;
+    background-size: cover!important;
+}
+
+.menubutton {
+    top: 5px!important;
+    display: initial!important;
+}
+
+nav {
+    display: none!important;
+}
+}

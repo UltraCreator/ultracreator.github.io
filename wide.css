@@ -225,7 +225,7 @@ header {
 
 content {
     top: 60px!important;
-    height: 373px!important;
+    height: 100%!important;
     background-size: cover!important;
 }
 

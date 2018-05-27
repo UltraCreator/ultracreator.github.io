@@ -1,0 +1,10 @@
+Apps:
+Privacy section design
+Privacy section
+
+Games:
+Privacy section design
+Privacy section
+
+Framework: Identify when menu is open
+Framework: Settings

@@ -1,0 +1,9 @@
+Social networks (f, t, gh, deviantart)
+Framework: Transitions
+Fix email
+www
+HTTPS
+Pictures > Image
+Videos > Video
+Disable links to same page
+Blog

@@ -1,0 +1,6 @@
+Framework: Loading page
+Framework: Language menu
+Languages: en, pt-br, chinese, french, deutsch, spanish, korean, japnese
+About page
+Politica privacidade
+Termos cookies

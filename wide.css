@@ -237,4 +237,7 @@ content {
 nav {
     display: none!important;
 }
+.sitetitle {
+    display: initial!important;
+}
 }

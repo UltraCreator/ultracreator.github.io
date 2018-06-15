@@ -1,4 +1,7 @@
-Social networks (f, t, gh, deviantart)
+Social networks
+t: 
+deviantart: 
+
 Framework: Transitions
 Fix email
 www

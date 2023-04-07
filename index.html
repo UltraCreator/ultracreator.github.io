@@ -1,5 +1,7 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" src="jquery.min.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0">
         <title>UltraCreator | Audiovisual productions</title>
@@ -7,13 +9,18 @@
             <meta name="description" lang="en" content="GEARS (dotGEARS) is a small, independent game studio based in Hanoi, Vietnam. We make bite-sized arcade mobile games. Our work is heavily influenced by retro pixelated games in its golden age. Everything is pure, extremely hard and incredibly fun to play.">
 	<link rel="icon" href="favicon.png" />
 	<link href="wide.css" rel="stylesheet">
+<!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+        <link href="Fonts/Roboto/font.css" rel="stylesheet">
+        <link href="Fonts/Material Icons/font.css" rel="stylesheet">
+	<link href="css/flag-icon.min.css" rel="stylesheet">
                 <style type="text/css">
                     a, img {
                         border:none;
                     }
                 
                 body,td,th {
-                    font-family: Verdana, sans-serif;
+                    font-family: "Roboto", Verdana, sans-serif;
                     font-size: 11px;
                     line-height: 13px;
                     color: #4b4b4b;
@@ -61,36 +68,101 @@
     border-radius: 2px;
     border-right: 1px solid #fff;
     display: inherit;
-}</style>
-                
-    <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.90facfc7dd48c9c8c4f1fc94e137b515.js"></script></head>
-<body>
-        <div align="center">
-                        <a href="index.html"><img src="logo.png" alt="UltraCreator Home" hspace="0" vspace="50" border="4"></a>
-<span style="font-size:20px;position:relative;left:-166px;top:-25px">Audiovisual productions</span>
-<span style="font-size:14px;position:relative;left:-314px;top:-10px">and freelance jobs</span>
-                    </div>
+}
+.sitetitle {
+    font-size: 28px;
+    position: relative;
+    color: #fff;
+    top: -6px;
+    left: 15px;
+    display: none;
+}
+</style>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-5468914677974248",
+          enable_page_level_ads: true
+     });
+</script>                
+</head>
+<body ng-app="BlankApp" class="ng-scope">
+        <header><div class="menubutton" onclick="$(`#dotsmenuone`).toggle();return false"><i class="material-icons">menu</i></div><div id="dotsmenuone" class="dotsmenu" style="display: none;">
+<p class="menutitle"><i class="material-icons">chrome_reader_mode</i> Menu 1</p>
 
+<a href=""><i class="material-icons">featured_play_list</i> Blog</a>
+<a href=""><i class="material-icons">contact_mail</i> Contact</a> <a href=""><i class="material-icons">info</i> About</a>
+</div>
+<logo alt="UltraCreator"></logo>
+<span class="sitetitle">UltraCreator</span>
 
-<a href="pictures.ultracreator.com/index.html" class="navbutton"><div style="
+<nav><a href=""><i class="material-icons">featured_play_list</i> Blog</a>
+<a href=""><i class="material-icons">contact_mail</i> Contact</a> <a href=""><i class="material-icons">info</i> About</a></nav>
+
+<button class="dots" onclick="$(`#dotsmenutwo`).toggle();return false"><i class="material-icons">arrow_drop_down_circle</i></button>
+<div id="dotsmenutwo" class="dotsmenu" style="display: none;">
+<p class="menutitle"><i class="material-icons">chrome_reader_mode</i> Menu 2</p>
+
+<a href=""><icon><span class="flag-icon flag-icon-gb"></span></icon> Language <span class="language-title">(EN)</span></a>
+<center><span>2017-2018 UltraCreator</span></center></div></header>
+
+<content><center><h1>Audiovisual productions</h1>
+<h2>and freelance jobs</h2>
+</center><a href="pictures/index.html" class="navbutton"><div style="
     background: url(pictures.png);
 "><span>Pictures</span><br></div>
-</a><a href="audio.ultracreator.com/index.html" class="navbutton"><div style="
+    </a><a href="audio/index.html" class="navbutton"><div style="
     background: url(audio.png);
 "><span>Audio</span><br></div>
-</a>
-<a href="videos.ultracreator.com/index.html" class="navbutton"><div style="
+</a><a href="videos/index.html" class="navbutton"><div style="
     background: url(videos.png);
 "><span>Videos</span><br></div>
-</a>
-<a href="code.ultracreator.com/index.html" class="navbutton"><div style="
+</a><a href="code/index.html" class="navbutton"><div style="
     background: url(code.png);
     color: #0091ce;
 "><span>Code</span><br></div>
-</a>
-<a href="games.ultracreator.com/index.html" class="navbutton"><div style="
+</a><a href="https://gamlr.github.io/" class="navbutton"><div style="
     background: url(games.png);
 "></div>
 </a>
+<br/>
+<email><!-->contact@ultracreator.com--><a href="mailto:daniellmesquita@protonmail.com">daniellmesquita@protonmail.com</a></email>
+<br/>
+<a href="https://www.facebook.com/UltraCreatorOfficial/" target="blank"><img src="facebook.png"/></a>
+<a href="https://twitter.com/theUltraCreator" target="blank"><img src="twitter.png"/></a>
+<a href="https://github.com/UltraCreator" target="blank"><img src="github.png"/></a>
+<a href="" target="blank"><img src=""/></a>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <h4 class="alert-heading">Attention - nostalgic site</h4>
+  <p>This site has been made in 2017, containing lots of English errors and will be rebuilt from scratch. UltraCreator's site will probably be moved into <a href="games/index.html">Gamlr</a>.</p>
+  <p>Subscribe for news, here: <a href="https://twitter.com/Plasmmer/" target="_blank">https://twitter.com/Plasmmer/</a> and here: <a href="https://twitter.com/GamlrDAO/" target="_blank">https://twitter.com/GamlrDAO/</a>.</p>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+</content>
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  
+  <!-- Your application bootstrap  -->
+  <script type="text/javascript">    
+    /**
+     * You must include the dependency on 'ngMaterial' 
+     */
+    angular.module('BlankApp', ['ngMaterial']);
+  </script>
+
 </body>
 </html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved. 
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at https://material.angularjs.org/license.
+-->
